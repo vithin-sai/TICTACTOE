@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background: rgb(146, 147, 144);*/
+    text-align: center;
+    background-color: #008060;
+}
+.btn {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    /*border: none;*/
+    box-shadow: 0 0 0.5rem rgb(78, 76, 76);
+    font-size: 3rem;
+    color:rgb(255, 255, 255);
+    background-color: rgb(91, 89, 89);
+    /*text-shadow: 0 0 10px #fff, 0 0 30px #4dffff, 0 0 40px #4dffff;*/
+}
+
+.x{
+    text-shadow: 0 0 10px #fff, 0 0 30px #ff4dbb, 0 0 40px #ff4dbb;
+}
+
+.o{
+    text-shadow: 0 0 10px #fff, 0 0 30px #4dffff, 0 0 40px #4dffff;
+}
+
+.game{
+    display: flex;
+    height: 21rem;
+    width: 21rem;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+h1{
+    margin-top: 1rem;
+    font-size: 50px;
+}
+#reset{
+    margin-top: 2rem;
+    background-color:  rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.75rem;
+    box-shadow: 0 0 0.5rem rgb(156, 155, 155);
+}
+#newgame{
+    margin-top: 3rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.75rem;
+    box-shadow: 0 0 0.5rem rgb(156, 155, 155);
+}
+.msgContainer{
+    height: 10rem;
+}
+ #winner{
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0.5rem rgb(208, 207, 207);
+} 
+.hide{
+    display: none;
+}
