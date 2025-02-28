@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    /*background: rgb(146, 147, 144);*/
+   
     text-align: center;
     background-color: #008060;
 }
@@ -11,12 +11,11 @@ body{
     height: 6rem;
     width: 6rem;
     border-radius: 0.5rem;
-    /*border: none;*/
+
     box-shadow: 0 0 0.5rem rgb(78, 76, 76);
     font-size: 3rem;
     color:rgb(255, 255, 255);
     background-color: rgb(91, 89, 89);
-    /*text-shadow: 0 0 10px #fff, 0 0 30px #4dffff, 0 0 40px #4dffff;*/
 }
 
 .x{
@@ -72,7 +71,6 @@ h1{
 }
  #winner{
     font-size: 2rem;
-    /* font-family: Arial, Helvetica, sans-serif; */
     color: rgb(0, 0, 0);
     box-shadow: 0 0 0.5rem rgb(208, 207, 207);
 } 
